@@ -1,0 +1,52 @@
+*{
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+.box{
+    width: 378px;
+    height: 550px;
+    
+}
+header{
+    width: 100%;
+    height: 10rem;
+}
+.logo{
+    text-align: center;
+    height: 50%;
+    width: 100%;
+    font-size: 2rem;
+}
+.vez{
+    text-align: center;
+    height: 55%;
+    width: 100%;
+    font-size: 3rem;
+    justify-content: center;
+}
+.tabuleiro{
+    position: absolute;
+    text-align: center;
+    width: 362px;
+    height: 363px;
+    background-color: #706863;
+}
+.linha1{
+    display: inline-block;
+}
+.linha2{
+    display: inline-block;
+}
+.linha3{
+    display: inline-block;
+
+}
